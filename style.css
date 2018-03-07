@@ -35,6 +35,17 @@ header .headline{
 	font-size: 32px;
 }
 
+.social {
+	position: absolute; /* .headerの左上を基準に位置を指定 */
+	top: 22px; /* .headerの上から22px下に移動 */
+	right: 22px; /* .headerの右から22px左に移動 */
+}
+
+.social i {
+	display: inline-block;
+	margin-left: 20px;
+}
+
 .nav-list {
 	text-align: center;
 	padding: 10px 0;
